@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The BMW - Page Classic</title>
+    <meta name="description" content="This web site is about history of the BMW 3 series generation. The website will have an explanation of the car's characteristics">
+    <meta name="author" content="Andrii Vedut">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=PT+Sans+Narrow:wght@400;700&family=Patrick+Hand&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+  </head>
+  
+  <body style="padding-top: 70px">
+
+    <!-- Navbar -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#">Navbar</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item "> <a class="nav-link" 
+		href="index.html">Home <span class="sr-only">(current)</span></a>
+			</li>
+	      <li class="nav-item active"> <a class="nav-link" href="Classic.html">Classic</a> </li>
+			<li class="nav-item"> <a class="nav-link" href="Evolution.html">Evolution </a> </li>
+			<li class="nav-item"> <a class="nav-link" href="Technology.html">Technology </a> </li>
+			<li class="nav-item"> <a class="nav-link" href="Future.html">Future </a> </li>
+			<li class="nav-item"> <a class="nav-link" href="comment.html">Comment</a> </li>
+				
+	      
+        </ul>
+	    <form action="https://www.google.ie/search" class="form-inline my-2 my-lg-0">
+	      <input name="q" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+  </nav>
+    <!-- Конец Navbar -->
+
+    <!-- Первый блок: Фото, текст, таблица -->
+    <div class="container">
+      <div class="block-section">
+        <!-- Фото для первого блока -->
+        <div class="image-block">
+          <img src="images/bmw9.jpg" alt="BMW E21 Classic">
+        </div>
+
+        <!-- Текст под фото для первого блока -->
+        <div class="text-block">
+          <h2>BMW 320 (E21) Overview</h2>
+          <p>BMW 3 SERIES OVERVIEW: Sporty, reliable, and successful. The BMW 3 Series has been an icon for over 40 years.</p>
+        </div>
+      </div>
+
+      <!-- Таблица для первого блока -->
+      <table class="table-section">
+        <thead>
+          <tr>
+            <th>Specification</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Production Years</td><td>1975–1982</td></tr>
+          <tr><td>Engine</td><td>Inline 6-cylinder (M20)</td></tr>
+          <tr><td>Power Output</td><td>109–125 hp</td></tr>
+          <tr><td>Top Speed</td><td>190 km/h</td></tr>
+          <tr><td>Fuel Consumption</td><td>~10 L/100 km</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Второй блок: Фото, текст, таблица -->
+    <div class="container">
+      <div class="block-section">
+        <!-- Фото для второго блока -->
+        <div class="image-block second-image">
+          <img src="images/bmw10.jpg" alt="BMW E30 Classic">
+        </div>
+        <!-- Текст под фото для второго блока -->
+        <div class="text-block">
+          <h2>BMW E30 Specifications</h2>
+          <p>The BMW E30 is known for its dynamic performance and classic design. It's a true symbol of BMW's excellence.</p>
+        </div>
+      </div>
+
+      <!-- Таблица для второго блока -->
+      <table class="table-section">
+        <thead>
+          <tr>
+            <th>Specification</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Production Years</td><td>1982–1994</td></tr>
+          <tr><td>Engine</td><td>Inline 4/6-cylinder</td></tr>
+          <tr><td>Power Output</td><td>90–238 hp</td></tr>
+          <tr><td>Top Speed</td><td>225 km/h</td></tr>
+          <tr><td>Fuel Consumption</td><td>8–12 L/100 km</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Footer -->
+    <div class="container">
+      <div class="row">
+        <footer>
+          <h2 class="contact">Contact Us</h2>
+          <div class="footerL col-sm-12 col-lg-6">
+            <p>Vevay Rd</p>
+            <p>Bray</p>
+            <p>Country Wicklow</p>
+            <p>A98Y512</p>
+            <p><a href="#carouselExampleIndicators1">Back to top</a></p>
+          </div>
+          <div class="footerR col-sm-12 col-lg-6">
+            <p><a href="mailto:baec@kwetb.ie"> Send Email</a></p>
+            <p><a href="tel:015242796">Tel:0858059410</a></p>
+            <p><a href="https://www.instagram.com/" target="_blank">Instagram &trade;</a></p>
+            <p class="linked"><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></p>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <!-- Скрипты -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>

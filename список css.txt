@@ -1,0 +1,64 @@
+/* Общий стиль для текстовых блоков */
+.text-block {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* Заголовки в текстовых блоках */
+.text-block h5 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Стили для нумерованных списков */
+.text-block ol {
+  padding-left: 25px; /* Небольшой отступ для первого списка */
+  margin: 0;
+  list-style: none;
+  counter-reset: list-counter;
+}
+
+.text-block ol li {
+  margin: 8px 0;
+  padding: 8px 8px 8px 35px; /* Больше места для текста */
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  position: relative;
+  line-height: 1.5;
+}
+
+.text-block ol li::before {
+  content: counter(list-counter) ".";
+  counter-increment: list-counter;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  text-align: right;
+  width: 20px; /* Ровно для цифр */
+}
+
+/* Особый стиль для вложенных элементов */
+.text-block ol dl {
+  margin: 5px 0;
+  padding-left: 0;
+  font-style: normal;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Анимация при наведении на пункт списка */
+.text-block ol li:hover {
+  background-color: #f7f7f7;
+  border-color: #ccc;
+  transition: all 0.2s ease-in-out;
+}
